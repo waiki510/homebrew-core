@@ -22,7 +22,6 @@ env:
     allure
     alluxio
     ammonite-repl
-    ammonite-repl
     angular-cli
     annie
     ansible-lint
@@ -48,9 +47,9 @@ env:
     arrayfire
     artifactory
     asciidoctorj
-    asciidoctorj
     ask-cli
     assh
+    asuka
     asymptote
     atlantis
     atuin
@@ -58,6 +57,7 @@ env:
     autorestic
     avrdude
     aws-cdk
+    aws-elasticbeanstalk
     aws-es-proxy
     azcopy
     b3sum
@@ -88,7 +88,9 @@ env:
     buildkit
     buildozer
     buildpulse-test-reporter
+    buku
     bundletool
+    bupstash
     butane
     byacc
     byteman
@@ -119,12 +121,14 @@ env:
     cheat
     checkstyle
     chezmoi
+    choose-rust
     chromaprint
     chronograf
     cilium-cli
     circleci
     clair
     clamav
+    clarinet
     clash
     clazy
     cliclick
@@ -132,13 +136,15 @@ env:
     closure-compiler
     cloud-nuke
     cloudflare-wrangler
+    cloudformation-guard
     clusterctl
+    cobalt
     code-minimap
     cointop
     coinutils
-    coinutils
     colima
     composer
+    condure
     conftest
     consul
     consul-template
@@ -153,7 +159,6 @@ env:
     croc
     cromwell
     crowdin
-    crowdin
     crun
     css-crush
     csvtk
@@ -163,7 +168,6 @@ env:
     cypher-shell
     dafny
     darkstat
-    datree
     datree
     davmail
     dbdeployer
@@ -178,6 +182,7 @@ env:
     devspace
     dex2jar
     diamond
+    diesel
     diffoscope
     digdag
     django-completion
@@ -196,17 +201,20 @@ env:
     docuum
     dolt
     dosbox-staging
+    dotenv-linter
     double-conversion
     doxygen
     dprint
     driftctl
+    drill
     drone-cli
-    druid
     druid
     dstask
     dtm
-    dtm
+    dua-cli
+    duckscript
     dune
+    dust
     dvc
     dwarfutils
     easyengine
@@ -223,6 +231,7 @@ env:
     envoy
     esbuild
     eslint
+    esptool
     etcd
     ethereum
     exploitdb
@@ -230,10 +239,14 @@ env:
     fabric-installer
     fantom
     faudio
+    fblog
+    fdroidserver
     feh
     fennel
     feroxbuster
+    ffsend
     firebase-cli
+    firefoxpwa
     flank
     flarectl
     fleet-cli
@@ -243,13 +256,14 @@ env:
     flux
     fluxctl
     flyway
-    flyway
     fmt
     fn
     fop
     ford
     fortio
     frugal
+    fselect
+    fst
     func-e
     fuse-overlayfs
     fuseki
@@ -259,10 +273,12 @@ env:
     gauge
     gdu
     geeqie
+    geph4
     gerbil-scheme
     gh
     ghz
     ghz-web
+    gifski
     ginac
     git-annex
     git-cliff
@@ -298,7 +314,6 @@ env:
     gor
     goredo
     goreleaser
-    goreleaser
     goreman
     gosec
     gostatic
@@ -310,6 +325,7 @@ env:
     gradle-profiler
     grafana
     grails
+    grin
     gromacs
     groovy
     groovysdk
@@ -323,16 +339,18 @@ env:
     helm
     helmfile
     helmsman
+    hexyl
     hidapi
+    himalaya
     hive
     hivemind
     htmldoc
     htmlq
     htmltest
     htpdate
-    htpdate
     httpx
     hugo
+    hyperfine
     iamy
     igv
     imagemagick
@@ -384,6 +402,7 @@ env:
     kepubify
     keydb
     ki
+    kickstart
     kind
     kitchen-sync
     kn
@@ -410,6 +429,7 @@ env:
     kubeseal
     kubespy
     kubevela
+    kubie
     kumactl
     kustomize
     kyma-cli
@@ -430,6 +450,7 @@ env:
     libpano
     libpipeline
     librdkafka
+    librespot
     lima
     linkerd
     liquibase
@@ -437,6 +458,7 @@ env:
     localstack
     log4cxx
     lout
+    lychee
     macchina
     mage
     mailutils
@@ -458,14 +480,17 @@ env:
     micro
     micronaut
     mill
-    mill
     minikube
+    miniserve
+    mitmproxy
     mmark
     mmctl
     moar
     mockery
     moco
+    molecule
     mongocli
+    monolith
     moto
     mpv
     muffet
@@ -478,6 +503,7 @@ env:
     nats-streaming-server
     navi
     ncc
+    ncspot
     neo4j
     neofetch
     nest
@@ -498,12 +524,13 @@ env:
     ocaml-findlib
     oci-cli
     ocp
+    ocrmypdf
     octant
     octave
+    oha
     okteto
     omniorb
     onednn
-    onedrive
     onedrive
     onscripter
     ooniprobe
@@ -515,6 +542,7 @@ env:
     orc-tools
     orientdb
     ortp
+    osm
     oxipng
     pacapt
     packer
@@ -523,7 +551,6 @@ env:
     pdftk-java
     pdm
     pgloader
-    pgloader
     pgweb
     phoronix-test-suite
     php-code-sniffer
@@ -531,6 +558,7 @@ env:
     phpmd
     phpmyadmin
     phpstan
+    pianod
     picard-tools
     pickle
     pig
@@ -550,10 +578,18 @@ env:
     procs
     protoc-gen-go-grpc
     psalm
+    pueue
+    pushpin
+    pwntools
+    py-spy
+    pyflow
+    pyoxidizer
     qjackctl
     qpid-proton
     questdb
     rancher-cli
+    rav1e
+    rbspy
     rbw
     rclone
     rebar3
@@ -562,12 +598,16 @@ env:
     reminiscence
     reposurgeon
     revive
+    rhit
     riemann
     rke
     rollup
     rosa-cli
+    rover
+    rpg-cli
     rqlite
     rubberband
+    rustup-init
     s-search
     s2n
     saml2aws
@@ -586,8 +626,12 @@ env:
     ser2net
     server-go
     serverless
+    shadowenv
+    sheldon
+    shellharden
     shellz
     shfmt
+    silicon
     singularity
     sjk
     skaffold
@@ -596,6 +640,9 @@ env:
     sleuthkit
     slides
     smimesign
+    sn0int
+    sniffer
+    sniffglue
     solana
     solr
     solr@7.7
@@ -604,9 +651,11 @@ env:
     sonobuoy
     sponge
     spotbugs
+    spotify-tui
     sqlancer
     sqlc
     sqlmap
+    sqlx-cli
     sslyze
     stanford-corenlp
     starship
@@ -620,6 +669,8 @@ env:
     stunnel
     subversion
     sundials
+    suricata
+    svgbob
     svgo
     svtplay-dl
     swagger-codegen
@@ -657,10 +708,7 @@ env:
     tomcat@8
     tomcat@9
     tomee-plume
-    tomee-plume
     tomee-plus
-    tomee-plus
-    tomee-webprofile
     tomee-webprofile
     topgrade
     traefik
@@ -671,6 +719,7 @@ env:
     trojan-go
     typedb
     tz
+    uni
     universal-ctags
     v2ray
     vale
@@ -684,20 +733,24 @@ env:
     virustotal-cli
     vite
     vitess
+    vivid
     vnstat
+    volta
     vpn-slice
-    vsearch
     vsearch
     vsh
     vue-cli
     wabt
     wakatime-cli
     wallpaper
+    wasm-pack
     wasmer
     wasmtime
+    watchexec
     waypoint
     webp
     webpack
+    websocat
     webtorrent-cli
     wgcf
     whistle
@@ -710,15 +763,21 @@ env:
     xclogparser
     xerces-c
     xgboost
+    xh
     xplr
     xray
     yaegi
+    ykman
     yosys
     youtubedr
     yq
+    z3
     zbctl
     zellij
+    zola
     zookeeper
+    zoxide
+    zstd
 
 jobs:
   autobump:
