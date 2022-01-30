@@ -472,7 +472,7 @@ env:
     mdbook
     mdcat
     mdzk
-    MeiliSearch
+    meilisearch
     memcached
     mesa
     meson
